@@ -26,3 +26,8 @@ while len(s)>0:
     else:
         print(bukva, 'is simbol')
     s = s[1:]
+
+
+
+
+
