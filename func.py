@@ -10,11 +10,13 @@
 
 
 
+x=6
 def fun_out():
+    #global x
     x = 2
     print('x равно', x)
     def func_in():
-        nonlocal x
+        #nonlocal x
         #global x
         x = 5
     func_in()
